@@ -9,7 +9,6 @@ export default function Resource(props) {
       useEffect(() => {
           const interval = setInterval( () => {
               let newCount = count + rate;
-              console.log(Date());
               if(newCount < 0)
               {
                   newCount = 0;
