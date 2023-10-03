@@ -62,7 +62,7 @@ export default function Resource(props) {
           <span id={'cnt'+props.name} className="count">{(count).toLocaleString(undefined, {minimumFractionDigits: 0})} / {capacity}</span>
           <span> </span>
           <span id={'inc'+props.name} aria-label="{props.name} {rate} per second" className="diff">{(rate).toLocaleString(undefined, {minimumFractionDigits: 0})} /s</span>
-          <span> <button onClick={handleClick}> Try to hold the crumbling world together. </button></span>
+          <span> <button onClick={handleClick}> {props.clickText} </button></span>
         </div>
     );
 }

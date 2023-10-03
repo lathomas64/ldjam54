@@ -11,3 +11,5 @@ to organize the information. -> unlock lumber resource with chop button.
 enough wood -> build library. 
 
 research unlock -> anchor trees. Slow down the rate of decline.
+
+how should we trigger dialogs?
